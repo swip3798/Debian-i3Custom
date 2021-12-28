@@ -36,7 +36,7 @@ git clone https://github.com/EliverLara/Nordic.git
 sudo mv ./Nordic /usr/share/themes/Nordic
 
 # Flatpak add flathub repo
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 echo Now restart your machine it should boot in i3
 echo Then run after-initial.sh
