@@ -28,6 +28,9 @@ unzip Meslo.zip -d ~/.fonts
 # Renew font cache
 fc-cache -vf
 
+# Install equivalent of ubuntu-restricted-extras
+sudo apt install -y libavcodec-extra unrar gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi
+
 # Nordic theme if wanted
 git clone https://github.com/EliverLara/Nordic.git
 sudo mv ./Nordic /usr/share/themes/Nordic
@@ -36,4 +39,4 @@ sudo mv ./Nordic /usr/share/themes/Nordic
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 echo Now restart your machine it should boot in i3
-echo Then run after_initial.sh
+echo Then run after-initial.sh
