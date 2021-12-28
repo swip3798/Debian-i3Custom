@@ -11,6 +11,8 @@ sudo apt update
 
 # Base install
 sudo apt install -y i3 lxappearance xorg nitrogen lightdm lightdm-settings slick-greeter flatpak pulseaudio pavucontrol alsa-utils terminator unzip arc-theme compton thunar rofi neofetch arandr gnome-disk-utility snapd
+# Add snap bin folder to path
+echo 'export PATH=$PATH:/snap/bin' >> ~/.bashrc
 
 # Appearance packages
 sudo apt install -y papirus-icon-theme lxappearance fonts-noto-color-emoji fonts-firacode fonts-font-awesome libqt5svg5 qml-module-qtquick-controls

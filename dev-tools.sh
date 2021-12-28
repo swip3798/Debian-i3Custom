@@ -8,11 +8,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 mkdir vscode
 cd vscode
 wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
-dpkg -i *.deb
+sudo dpkg -i *.deb
 cd ..
 
 # python stuff
-sudo apt install python3-pip
+sudo apt install -y python3-pip
 pip install seaborn pandas mongoengine scikit-learn requests
 
 
