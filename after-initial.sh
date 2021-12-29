@@ -11,3 +11,5 @@ read -p " [RETURN]"
 ./i3-gaps-deb
 
 echo Now configs are copy, press Super+Shift+r to reload i3, you should see different i3status and stuff
+echo After that you can install all the other software with misc-software.sh
+
