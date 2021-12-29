@@ -15,7 +15,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ###### PYTHON ###########
 sudo apt install -y python3-pip
-pip install seaborn pandas mongoengine scikit-learn requests
+pip install seaborn pandas mongoengine scikit-learn requests sqlalchemy tornado flask
 
 
 ####### FLUTTER #########
