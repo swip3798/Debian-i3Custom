@@ -17,4 +17,4 @@ sudo apt update
 sudo apt install -y lutris
 
 # Discord
-flatpak install -y com.discordapp.Discord org.telegram com.spotify.Client org.gimp.GIMP org.kde.kdenlive fr.natron.Natron org.libreoffice.LibreOffice org.videolan.VLC com.github.micahflee.torbrowser-launcher org.inkscape.Inkscape
+flatpak install -y com.discordapp.Discord org.telegram.desktop com.spotify.Client org.gimp.GIMP org.kde.kdenlive fr.natron.Natron org.libreoffice.LibreOffice org.videolan.VLC com.github.micahflee.torbrowser-launcher org.inkscape.Inkscape
