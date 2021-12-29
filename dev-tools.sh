@@ -26,3 +26,12 @@ flutter doctor
 sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev
 # Enable desktop support
 flutter config --enable-linux-desktop
+
+# Android Studio 
+sudo snap install android-studio --classic
+echo Now android studio gets opened, install android studio and install command-line tools
+android-studio
+echo Press enter when you installed both android studio and command-line tools
+read -p " [RETURN]"
+flutter doctor --android-licenses
+flutter doctor
