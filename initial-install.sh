@@ -10,7 +10,7 @@ sudo dpkg --add-architecture i386
 sudo apt update
 
 # Base install
-sudo apt install -y i3 lxappearance xorg nitrogen lightdm lightdm-settings slick-greeter flatpak pulseaudio pavucontrol alsa-utils terminator unzip arc-theme compton thunar rofi neofetch arandr gnome-disk-utility snapd
+sudo apt install -y i3 lxappearance xorg nitrogen lightdm lightdm-settings slick-greeter flatpak pulseaudio pavucontrol alsa-utils terminator unzip arc-theme compton thunar rofi neofetch arandr gnome-disk-utility snapd curl
 # Add snap bin folder to path
 echo 'export PATH=$PATH:/snap/bin' >> ~/.bashrc
 
@@ -40,5 +40,7 @@ sudo mv ./Nordic /usr/share/themes/Nordic
 # Flatpak add flathub repo
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-echo Now restart your machine it should boot in i3
+echo Now your machine gets restarted and should boot in i3
 echo Then run after-initial.sh
+sleep 5
+sudo reboot now
