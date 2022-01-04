@@ -60,6 +60,5 @@ cd ..
 cp -r ./config/* ~/.config/
 
 echo Now your machine gets restarted and should boot in i3
-echo Then run after-initial.sh
 sleep 5
 sudo reboot now
