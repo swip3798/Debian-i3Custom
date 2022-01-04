@@ -11,7 +11,8 @@ cd ..
 
 ######## RUST ##########
 # install rust toolchain
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# Redundant because already installed for building alacritty
+#curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ###### PYTHON ###########
 sudo apt install -y python3-pip
