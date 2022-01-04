@@ -61,4 +61,4 @@ cp -r ./config/* ~/.config/
 
 echo Now your machine gets restarted and should boot in i3
 sleep 5
-sudo reboot now
+#sudo reboot now
