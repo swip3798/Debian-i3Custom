@@ -45,6 +45,17 @@ echo "Path askpass /usr/bin/ssh-askpass" | sudo tee /etc/sudo.conf
 
 cp ./desktop-files/*.desktop ~/.local/share/applications/
 
+# Install firefox latest
+flatpak install -y flathub org.mozilla.firefox
+
+git clone https://github.com/maestrogerardo/i3-gaps-deb.git
+cd i3-gaps-deb
+./i3-gaps-deb
+cd ..
+
+# Copy configs
+cp -r ./config/* ~/.config/
+
 echo Now your machine gets restarted and should boot in i3
 echo Then run after-initial.sh
 sleep 5
