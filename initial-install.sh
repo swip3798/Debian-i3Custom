@@ -57,6 +57,7 @@ cd i3-gaps-deb
 cd ..
 
 # Copy configs
+mkdir ~/.config
 cp -r ./config/* ~/.config/
 
 echo Now your machine gets restarted and should boot in i3
