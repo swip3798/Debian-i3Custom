@@ -12,4 +12,6 @@ sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
 sudo desktop-file-install extra/linux/Alacritty.desktop
 sudo update-desktop-database
 
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/alacritty 50
+sudo update-alternatives --config x-terminal-emulator
 cd ..
