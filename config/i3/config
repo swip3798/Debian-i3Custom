@@ -203,7 +203,9 @@ exec --no-startup-id nitrogen --restore
 
 #exec --no-startup-id compton --config /home/chris/.config/compton.conf -b
 
-exec --no-startup-id xrandr --output USB-C-0 --auto --left-of DP-4
+#exec --no-startup-id xrandr --output USB-C-0 --auto --left-of DP-4
+
+exec --no-startup-id bash /home/chris/.screenlayout/default.sh
 
 # Set soundoutput shortcuts
 bindsym $mod+Shift+Ctrl+2 exec pactl set-default-sink alsa_output.pci-0000_0a_00.1.hdmi-stereo-extra2
