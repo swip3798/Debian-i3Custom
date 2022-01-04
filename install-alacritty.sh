@@ -13,5 +13,5 @@ sudo desktop-file-install extra/linux/Alacritty.desktop
 sudo update-desktop-database
 
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/local/bin/alacritty 50
-sudo update-alternatives --config x-terminal-emulator
+#sudo update-alternatives --config x-terminal-emulator
 cd ..
