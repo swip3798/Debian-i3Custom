@@ -12,19 +12,12 @@ sudo apt update
 # Base install
 sudo apt install -y i3 lxappearance xorg nitrogen lightdm lightdm-settings slick-greeter flatpak pulseaudio pavucontrol alsa-utils unzip arc-theme compton thunar rofi neofetch arandr gnome-disk-utility snapd curl ssh-askpass-gnome
 sudo apt install -y \
-  #i3 as the wm
   xorg i3 compton rofi \
-  # lightdm as the display manager
   lightdm lightdm-settings slick-greeter \
-  # audio stuff
   pulseaudio pavucontrol alsa-utils \
-  # appearance stuff
   lxappearance arandr nitrogen \
-  # standard apps for normal tasks
   gnome-disk-utility file-roller thunar firefox-esr terminator \
-  # misc packages
   neofetch htop python3-pip python-is-python3 ttf-mscorefonts-installer curl flatpak unzip libqt5svg5 sassc qml-module-qtquick-controls libavcodec-extra unrar gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi \
-  # i3-gaps build deps
   devscripts dpkg-dev dh-autoreconf libxcb-xrm-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-shape0-dev meson
 
 i3-config-wizard
