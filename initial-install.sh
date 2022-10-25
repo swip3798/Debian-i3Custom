@@ -26,6 +26,9 @@ cd i3-gaps-deb
 ./i3-gaps-deb
 cd ..
 
+mkdir -p ~/.config/i3
+cp config/i3/config ~/.config/i3/config
+
 # Fonts install
 mkdir ~/.fonts 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/BitstreamVeraSansMono.zip
