@@ -15,7 +15,7 @@ sudo apt install -y \
   lightdm lightdm-settings slick-greeter \
   pulseaudio pavucontrol alsa-utils \
   lxappearance arandr nitrogen \
-  gnome-disk-utility file-roller thunar firefox-esr terminator \
+  gnome-disk-utility file-roller thunar terminator \
   neofetch htop python3-pip python-is-python3 ttf-mscorefonts-installer curl flatpak unzip libqt5svg5 sassc qml-module-qtquick-controls libavcodec-extra unrar gstreamer1.0-libav gstreamer1.0-plugins-ugly gstreamer1.0-vaapi \
   devscripts dpkg-dev dh-autoreconf libxcb-xrm-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev libxcb-shape0-dev meson
 
