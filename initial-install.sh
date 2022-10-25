@@ -33,6 +33,7 @@ cp config/i3/config ~/.config/i3/config
 mkdir ~/.fonts 
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/BitstreamVeraSansMono.zip
 unzip BitstreamVeraSansMono.zip -d ~/.fonts
+rm BitstreamVeraSansMono.zip
 
 # Renew font cache
 fc-cache -vf
