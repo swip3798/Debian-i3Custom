@@ -3,7 +3,7 @@ read -p "Press Enter to continue"
 sudo rm -rf /opt/firefox
 sudo apt remove -y firefox-esr
 
-echo Install dependencies (if not installed already)
+echo "Install dependencies (if not installed already)"
 read -p "Press Enter to continue"
 sudo apt install -y libdbus-glib-1-2 libevent-2.1-7 libnspr4 libnss3
 
